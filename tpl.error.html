@@ -1,0 +1,57 @@
+<div id="ilTopBar" class="ilTopBar">
+	<div class="container">
+		<div class="row">
+			<!-- BEGIN header_top_title -->
+			<div class="ilTopTitle">{TXT_HEADER_TITLE}</div>
+			<!-- END header_top_title -->
+		</div>
+	</div>
+</div>
+<div class="ilMainHeader">
+	<header class="container">
+		<div id="il_startup_logo" class="row">
+			<img src="./Customizing/global/skin/Skin_ILIAS-5.4_MontCenis/images/HeaderIcon.svg" alt="Logo" />
+		</div>
+		<a class="startup-navbar-text" href="{HEADER_URL}" target="_top">
+			<p class="Line1">AKADEMIE MONT-CENIS</p>
+			<p class="Line2">LERNEN IN NRW</p>
+		</a>
+		<a class="il_second_startup_logo" href="{HEADER_URL}" target="_top">
+			<img class="hidden-xs noMirror" alt="Logo" src="./Customizing/global/skin/Skin_ILIAS-5.4_MontCenis/images/logo_fah_nrw.png" />
+			<img class="visible-xs-inline-block noMirror" alt="Logo" src="./Customizing/global/skin/Skin_ILIAS-5.4_MontCenis/images/logo_fah_nrw.png">
+		</a>
+	</header>
+</div>
+<div class="ilMainMenu ilStartupMainMenu">
+		<div class="row">
+			<nav id="ilTopNav" class="navbar navbar-default" role="navigation"></nav>
+	</div>
+</div>
+<div id="mainspacekeeper" class="container">
+	<div class="row" style="position: relative;">
+		<div id="fixed_content" class=" ilContentFixed">
+			<div id="mainscrolldiv" class="ilStartupFrame container">
+				<div class="il_Header">
+					<h1>{MESSAGE_HEADING}</h1>
+				</div>
+				<div class="ilStartupSection">
+					<div class="alert alert-danger">{ERROR_MESSAGE}</div>
+					<!-- BEGIN ErrorLink -->
+					<!-- additional link e.g. by WebAccessChecker -->
+					<p>
+						<a class="btn btn-default" href="{LINK}">{TXT_LINK}</a>
+					</p>
+					<!-- END ErrorLink -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="minheight"></div>
+<footer class="ilFooter">
+	<div class="container">
+		<div class="row">
+			<div class="ilFooterContainer">{FOOTER}</div>
+		</div>
+	</div>
+</footer>
